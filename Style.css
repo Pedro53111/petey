@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.introduction {
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.mainimage{
+     margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;  
+    position:relative;
+    height: auto;
+    width: 30%;
+    }
+
+.text{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+.cartoes{
+    margin-top: 50px;
+
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 50% , rgb(255, 255, 255) 50%); /* Standard syntax */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.cartao {
+    padding: 60px 20px;
+    background-color: #fefefe;
+    width: 300px;
+    height: 400px;
+    margin: 20px 200px 10px;
+    box-shadow: 3px 3px 10px #050505;
+    position: relative;
+    text-align: center;
+}
+
+
+.projects{
+    margin-top: 150px; 
+    line-height: 100px;
+    display: flex ;
+    flex-direction: column;
+
+}
+
+.images{
+    width: 1000px;
+    display:flex ;
+}
+
+
+
+.examples{
+    display: flex;
+    width: 100px;
+    margin-top:100px;
+}
+
