@@ -68,14 +68,13 @@ ul {
 .projects{
     margin-top: 150px; 
     line-height: 100px;
-    display: flex ;
-    flex-direction: column;
-
+    text-align: center;
 }
 
 .images{
     width: 1000px;
     display:flex ;
+    flex-direction: column;
 }
 
 
@@ -86,3 +85,25 @@ ul {
     margin-top:100px;
 }
 
+.title{
+    display: flex;
+    flex-direction: line;
+}
+
+.desc{
+    
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.footer{
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
